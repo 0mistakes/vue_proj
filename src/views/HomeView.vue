@@ -1,18 +1,17 @@
+
 <template>
-  <HelloWorld />
+  <v-container>
+    <v-row justify="center">
+      <h1>Home</h1>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
-import { defineComponent } from 'vue';
-
-// Components
-import HelloWorld from '../components/HelloWorld.vue';
-
-export default defineComponent({
-  name: 'HomeView',
-
-  components: {
-    HelloWorld,
-  },
-});
+export default {
+  data () {
+    return {
+    }
+  }
+}
 </script>
