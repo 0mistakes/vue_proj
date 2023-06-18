@@ -1,4 +1,3 @@
-import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AdListView from '../views/Ads/AdListView.vue'
 import AdView from '../views/Ads/AdView.vue'
